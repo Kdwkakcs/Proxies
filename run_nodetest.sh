@@ -1,6 +1,6 @@
 #! /bin/bash
 
-time=$(date +%Y%m%d%H%M%S)
+time=$(date)
 echo Running Node Test at $time
 
 # 1. Download data from pwcd
@@ -9,7 +9,7 @@ output="https://raw.githubusercontent.com/Kdwkakcs/pwcd/refs/heads/main/all_node
 
 # 2. Run node test based on the downloaded data
 savedb="test_node.db.gz"
-./singtools node -d $output -s $savedb -c config.json -n 40000
+./singtools node -d $output -s $savedb -c config.json -n 10000
 
 # 3. Remove the downloaded data
 rm ./GeoLite2-Country.mmdb ./cache.db diff_nodes.txt.gz
@@ -17,8 +17,7 @@ gzip diff_nodes.txt
 
 # 4. commit the result to the remote repository
 timeshour=$(date +%H)
-datetime=$(date)
-echo $timeshour
+
 if [ $timeshour == "12" ]; then
     echo "Remove all commit history"
     git config --global user.email "action@github.com"
@@ -27,7 +26,7 @@ if [ $timeshour == "12" ]; then
     # remove all commit history
     git checkout --orphan latest_branch
     git add -A
-    git commit -m "Update at $datetime"
+    git commit -m "Update at $time"
     git branch -D main
     git branch -m main
     git push -f origin main
@@ -35,6 +34,6 @@ else
     git config --global user.email "action@github.com"
     git config --global user.name "GitHub Action"
     git add .
-    git commit -m "Update at $datetime"
+    git commit -m "Update at $time"
     git push
 fi

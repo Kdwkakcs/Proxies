@@ -1,6 +1,6 @@
 {
     "group": "job",
-    "speedtestMode": "pingonly",
+    "speedtestMode": "all",
     "pingUrl": "http://www.gstatic.com/generate_204",
     "pingMethod":"http",
     "sortMethod":"speed",
