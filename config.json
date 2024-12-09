@@ -4,15 +4,10 @@
     "pingUrl": "http://www.gstatic.com/generate_204",
     "pingMethod":"http",
     "sortMethod":"speed",
-    "concurrency":50,
+    "concurrency":75,
     "timeout":5,
     "detectCountry": true,
     "removeDup": true,
     "remoteIP": true,
-    "logLevel": "INFO",
-    "use_proxy": false,
-    "proxy_address": "127.0.0.1",
-    "proxy_port": 2334,
-    "proxy_type": "socks5",
-    "proxy_tag": "test_detour"
+    "logLevel": "INFO"
 }

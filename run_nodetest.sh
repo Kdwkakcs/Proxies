@@ -12,8 +12,7 @@ savedb="test_node.db.gz"
 ./singtools node -d $output -s $savedb -c config.json -n 10000
 
 # 3. Remove the downloaded data
-rm ./GeoLite2-Country.mmdb ./cache.db diff_nodes.txt.gz
-gzip diff_nodes.txt
+rm ./GeoLite2-Country.mmdb ./cache.db
 
 # 4. commit the result to the remote repository
 timeshour=$(date +%H)
