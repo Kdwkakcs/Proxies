@@ -1,4 +1,3 @@
-2024-12-05 13:37:15 Total nodes: 8770, Failed: 8687, Success: 83, SuccessRate: 0.95%
 2024-12-05 14:26:42 Total nodes: 8770, Failed: 8682, Success: 88, SuccessRate: 1.00%
 2024-12-05 15:27:47 Total nodes: 8770, Failed: 8517, Success: 253, SuccessRate: 2.88%
 2024-12-05 16:32:09 Total nodes: 8478, Failed: 8435, Success: 43, SuccessRate: 0.51%
@@ -97,3 +96,4 @@
 2024-12-09 14:42:42 Total tested nodes: 10000, Failed: 9449, Success: 551, SuccessRate: 5.51%.	Total tested nodes: 419293
 2024-12-09 15:48:05 Total tested nodes: 10000, Failed: 9708, Success: 292, SuccessRate: 2.92%.	Total tested nodes: 419455
 2024-12-09 16:46:30 Total tested nodes: 9980, Failed: 9697, Success: 283, SuccessRate: 2.84%.	Total tested nodes: 419580
+2024-12-09 17:38:04 Total tested nodes: 10000, Failed: 9403, Success: 597, SuccessRate: 5.97%.	Total tested nodes: 419737
