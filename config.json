@@ -1,0 +1,13 @@
+{
+    "group": "job",
+    "speedtestMode": "all",
+    "pingUrl": "http://www.gstatic.com/generate_204",
+    "pingMethod":"http",
+    "sortMethod":"speed",
+    "concurrency":75,
+    "timeout":5,
+    "detectCountry": true,
+    "removeDup": true,
+    "remoteIP": true,
+    "logLevel": "INFO"
+}
