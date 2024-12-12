@@ -1,4 +1,3 @@
-2024-12-07 17:37:46 Total nodes in this test: 39927, Failed: 39252, Success: 675, SuccessRate: 1.69%.	Total tested nodes: 206604
 2024-12-07 18:48:18 Total nodes in this test: 39915, Failed: 39415, Success: 500, SuccessRate: 1.25%.	Total tested nodes: 246519
 2024-12-07 19:35:14 Total nodes in this test: 39912, Failed: 39204, Success: 708, SuccessRate: 1.77%.	Total tested nodes: 286431
 2024-12-07 20:39:07 Total nodes in this test: 36912, Failed: 27905, Success: 9007, SuccessRate: 24.40%.	Total tested nodes: 323343
@@ -97,3 +96,4 @@
 2024-12-11 21:43:14 Total tested nodes: 10000, Ping success: 6290, Speed success: 362, Success: 6289, SuccessRate: 62.89%, Failed: 3711.	Total tested nodes: 484446
 2024-12-11 22:45:26 Total tested nodes: 9999, Ping success: 6832, Speed success: 310, Success: 6831, SuccessRate: 68.32%, Failed: 3168.	Total tested nodes: 484643
 2024-12-11 23:36:39 Total tested nodes: 10000, Ping success: 4454, Speed success: 495, Success: 4452, SuccessRate: 44.52%, Failed: 5548.	Total tested nodes: 484824
+2024-12-12 02:08:18 Total tested nodes: 10000, Ping success: 8133, Speed success: 252, Success: 8116, SuccessRate: 81.16%, Failed: 1884.	Total tested nodes: 491109
