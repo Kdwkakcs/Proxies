@@ -1,0 +1,21 @@
+name: Node_Test
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时执行一次
+  workflow_dispatch:      # 支持手动触发
+    
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Run Node Test
+        run: |
+          chmod +x run_nodetest.sh
+          bash run_nodetest.sh
